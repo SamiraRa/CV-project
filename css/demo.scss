@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+ a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    a:hover{
+        color: #333399;
+    }
+}}
+
+.table-hover{
+    @if (background-color: #d7d8da){
+        background-color: rgb(233, 233, 233) ;
+    }
+    @else{
+        --bs-table-accent-bg: : rgba(0, 0, 0, 0.1);;
+       color: transparent;
+    }
+}
